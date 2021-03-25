@@ -1,0 +1,25 @@
+{
+  "name": "oura_backend",
+  "version": "0.1.0",
+  "description": "backend app for oura healthboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirexdoors/oura_backend.git"
+  },
+  "author": "mirexdoors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirexdoors/oura_backend/issues"
+  },
+  "homepage": "https://github.com/mirexdoors/oura_backend#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "pg": "^8.5.1"
+  }
+}
